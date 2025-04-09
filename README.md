@@ -123,13 +123,13 @@ Refer to the truth table of a 1-bit full adder:
 #### Your Task
 Create a truth table for a **2-bit adder** without carry-in. What are the possible inputs and outputs?
 
->   Your
+>   | B | A | Sum | C<sub>out</sub> |
+>   | 0 | 0 |  0  | 0               |
+>   | 1 | 0 |  1  | 0               |
+>   | 0 | 1 |  1  | 0               |
+>   | 1 | 1 |  0  | 1               |
 >
->   table
->
->   goes
->
->   here!
+>   
 
 ---
 
@@ -144,11 +144,11 @@ Use the [K-Map method](https://github.com/STEMgraph/4b957490-badf-4264-b9f2-1b5a
 <details>
 <summary>The final functions</summary>
 
-Q<sub>0</sub> = .......
+Q<sub>0</sub> = (A1 && B1) || (A0 && B0)
 
-Q<sub>1</sub> = .......
+Q<sub>1</sub> = (A1 && B0) || (A0 && B1)
 
-C<sub>out</sub> = .......
+C<sub>out</sub> = B1 && A1
 
 </details>
 
@@ -159,7 +159,7 @@ Using your Boolean equations, build a logic network in [CircuitVerse](https://ci
 
 <details>
 <summary>Your solution</summary>
-A share link to your solution goes here: <a href=".................">Link!</a>
+A share link to your solution goes here: <a href="<iframe src="https://circuitverse.org/simulator/embed/kai-mischke-schaltkreis?theme=&display_title=false&clock_time=true&fullscreen=true&zoom_in_out=true" style="border-width:; border-style: ; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>">Link!</a>
 </details>
 
 ---

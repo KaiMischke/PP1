@@ -71,15 +71,31 @@ Fill out the following table, mapping decimal numbers `0` through `15` to their 
 |---------|------------------------|
 | 0       | 0000                   |
 | 1       | 0001                   |
-| ...     | ...                    |
-| 15      | ????                   |
+| 2       | 0010                   |
+| 3       | 0011                   |
+| 4       | 0100                   |
+| 5       | 0101                   |
+| 6       | 0110                   |
+| 7       | 0111                   |
+| 8       | 1000                   |
+| 9       | 1001                   |
+| 10      | 1010                   |
+| 11      | 1011                   |
+| 12      | 1100                   |
+| 13      | 1101                   |
+| 14      | 1110                   |
+| 15      | 1111                   |
 
 **How many binary digits (bits) are needed?**
+4 binary digits (4 bits) are neede.
 
 Explain how to calculate the number of bits required:
 <details>
 <summary>Your Answer</summary>
-Erase this text and write your answer here!
+2^4=16 
+To represent the numbers 0 to 15 (=16 numbers) we ne 4 bits.
+1 bit can represent 2 states. With 16 numbers we have 16 states, so we need
+2^4 states = 16 states.
 </details>
 
 ---

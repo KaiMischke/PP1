@@ -1,3 +1,5 @@
+I created a github account with my THGA mail adress read the readme and created a fork of the readme. It took me about 5 minutes.
+
 # PP1
 
 ## Goal
